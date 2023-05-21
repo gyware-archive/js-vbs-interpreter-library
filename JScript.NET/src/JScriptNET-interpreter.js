@@ -10,6 +10,7 @@ import System.Runtime.InteropServices;
 
 //[assembly: ComVisible(true)]
 //[assembly: ProgId("GyWare.JScript.NET")]
+[assembly: AssemblyVersion("1.0.0.0")]
 [assembly: Guid("36b8dbcb-3e3a-45ff-9d8a-0d005d1279ec")]
 public class JScriptNET extends ServicedComponent {
     public function EvalCode(code) {
