@@ -1,11 +1,12 @@
 <?XML version="1.0" ?>
 <package>
 <component id="GyWare.JScript">
-<registration>
+<registration
    description="GyWare JScript Library"
    progid="GyWare.JScript"
    version="1.0"
    classid="{1e81872e-d8d4-41c9-b1b5-bd4fb69e1457}"
+>
 </registration>
 <public>
    <method name="EvalCode"/>
