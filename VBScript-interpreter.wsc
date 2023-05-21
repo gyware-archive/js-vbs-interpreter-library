@@ -1,0 +1,22 @@
+<?XML version="1.0" ?>
+<package>
+<component id="GyWare.VBScript">
+<registration
+   description="GyWare VBScript Library"
+   progid="GyWare.VBScript"
+   version="1.0"
+   classid="{7c55fd0a-d2a8-4a19-ac41-ec31c7095072}"
+>
+</registration>
+<public>
+   <method name="EvalCode"/>
+</public>
+<script language="VBScript">
+   <![CDATA[
+   Function EvalCode(code)
+	    EvalCode = eval(code)
+   End Function
+   ]]>
+</script>
+</component>
+</package>
