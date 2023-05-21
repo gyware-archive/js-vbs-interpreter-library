@@ -2,7 +2,6 @@ import System;
 import System.IO;
 import System.Reflection;
 import System.Security;
-import Microsoft.Win32;
 import System.ComponentModel;
 import System.Collections.Generic;
 import System.Collections.ObjectModel;
